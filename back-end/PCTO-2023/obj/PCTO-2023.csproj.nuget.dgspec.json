@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/PCTO-2023/PCTO-2023.csproj": {}
+  },
+  "projects": {
+    "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/ClassLibrary1/ClassLibrary1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/ClassLibrary1/ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/ClassLibrary1/ClassLibrary1.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/ClassLibrary1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.117/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/PCTO-2023/PCTO-2023.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/PCTO-2023/PCTO-2023.csproj",
+        "projectName": "PCTO-2023",
+        "projectPath": "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/PCTO-2023/PCTO-2023.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/PCTO-2023/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/ClassLibrary1/ClassLibrary1.csproj": {
+                "projectPath": "/home/marco/Documenti/MarcoCellini/MSC/StowagePlan/back-end/ClassLibrary1/ClassLibrary1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.117/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

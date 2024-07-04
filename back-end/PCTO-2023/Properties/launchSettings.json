@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "PCTO-2023": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

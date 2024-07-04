@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "discharge": 9,
+        "weight": 29,
+        "dimension": 20
+    },
+    {
+        "id": 1,
+        "discharge": 3,
+        "weight": 62,
+        "dimension": 20
+    },
+    {
+        "id": 2,
+        "discharge": 5,
+        "weight": 92,
+        "dimension": 20
+    },
+    {
+        "id": 3,
+        "discharge": 5,
+        "weight": 63,
+        "dimension": 20
+    },
+    {
+        "id": 4,
+        "discharge": 1,
+        "weight": 9,
+        "dimension": 20
+    },
+    {
+        "id": 5,
+        "discharge": 6,
+        "weight": 25,
+        "dimension": 20
+    }
+]

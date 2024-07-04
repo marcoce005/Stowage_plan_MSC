@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.father {
+    display: flex;
+    margin-top: 2%;
+}
+
+.container {
+    margin-left: 5%;
+    border: 1px solid black;
+    width: 30%;
+    padding-left: 1%;
+    display: inline-grid;
+}
+
+#form1 {
+    padding: 4%;
+    display: grid;
+}
+
+#form2 {
+    padding: 4%;
+    display: grid;
+}
+
+input {
+    width: 15%;
+}
+
+.idpulsante {
+    justify-self: end;
+    color: darkred;
+    font-size: 1.5vw;
+    padding: 4%;
+    background-color: bisque;
+    margin: 3%;
+    max-height: 150px;
+}
+
+.idpulsante:hover {
+    cursor: pointer;
+}
+

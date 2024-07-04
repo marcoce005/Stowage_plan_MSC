@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form riempimento</title>
+</head>
+<body>
+    <h1>Riempimento della nave</h1><hr>
+    <div class="father">
+
+        <div class="container 1"> 
+            <h3>Inserisci il numero di container da inserire nella nave<br>(x = righe, y = colonne, z = piani)</h3>
+            <form id="form1">
+                <label for="x">X: </label>
+                <input type="number" id="x" name="x" min="0" max="200" placeholder="0"><br>
+                <label for="y">Y: </label>
+                <input type="number" id="y" name="y" min="0" max="200" placeholder="0"><br>
+                <label for="z">Z: </label>
+                <input type="number" id="z" name="z" min="0" max="200" placeholder="0">
+            </form>
+        </div>
+    
+        <div class="container 2">
+            <form id="form2">
+                <h3>Caratteristiche container:</h3>
+                <label for="scarico">priorità di scarico:</label>
+                <input type="number" id="scarico" name="x" min="0" max="100"><br>
+                <label for="peso">peso (ton): </label>
+                <input type="number" id="peso" name="y" min="10" max="30"><br>
+                <label for="size">dimensione (m): </label>
+                <input type="number" id="size" name="z" min="20" max="40">
+            </form>
+
+            <button class="idpulsante" onclick="add_container()">AGGIUNGI CONTAINER</button>
+        </div>
+
+        <button type="button" class="idpulsante" onclick="stowage_plan()">STOWAGE PLAN</button>
+    </div>
+
+    <ol id="nave">
+        
+    </ol>
+    <script src="./index.js"></script>
+</body>
+</html>
